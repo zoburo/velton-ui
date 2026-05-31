@@ -6,7 +6,7 @@
 		"directory": "build"
 	},
 	"route": {
-		"pattern": "ui.zoburo.com",
+		"pattern": "velton-ui.zoburo.com",
 		"zone_name": "zoburo.com",
 		"custom_domain": true
 	}
