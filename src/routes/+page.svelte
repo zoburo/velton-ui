@@ -13,7 +13,7 @@
 		about the UI again.
 	</p>
 	<div class="mt-7 flex justify-center gap-2.5">
-		<Button size="lg">Get started</Button>
+		<Button href="/getting-started/" size="lg">Get started</Button>
 		<Button size="lg" variant="outline">Browse components</Button>
 	</div>
 </Container>
