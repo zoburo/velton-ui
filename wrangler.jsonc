@@ -1,0 +1,13 @@
+{
+	"$schema": "https://cdn.jsdelivr.net/npm/wrangler/config-schema.json",
+	"name": "velton-ui",
+	"compatibility_date": "2026-05-30",
+	"assets": {
+		"directory": "build"
+	},
+	"route": {
+		"pattern": "ui.zoburo.com",
+		"zone_name": "zoburo.com",
+		"custom_domain": true
+	}
+}

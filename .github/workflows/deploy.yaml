@@ -1,0 +1,20 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    uses: zoburo/ci/.github/workflows/build-pnpm-project.yaml@main
+    secrets: inherit
+    with:
+      output: |
+        build
+        wrangler.jsonc
+
+  deploy:
+    uses: zoburo/ci/.github/workflows/deploy-cloudflare-workers.yaml@main
+    needs: build
+    secrets: inherit
