@@ -1,6 +1,14 @@
 {
 	"name": "velton-ui",
 	"version": "0.0.1",
+	"description": "Modern component library for Svelte.",
+	"author": "Zoburo <me@zoburo.com>",
+	"license": "MIT",
+	"homepage": "https://ui.zoburo.com",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/zoburo/velton-ui.git"
+	},
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run prepack",
