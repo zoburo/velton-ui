@@ -4,7 +4,7 @@
 	"description": "Modern component library for Svelte.",
 	"author": "Zoburo <me@zoburo.com>",
 	"license": "MIT",
-	"homepage": "https://ui.zoburo.com",
+	"homepage": "https://velton-ui.zoburo.com",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/zoburo/velton-ui.git"
