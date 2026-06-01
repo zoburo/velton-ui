@@ -1,6 +1,6 @@
 {
 	"name": "velton-ui",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Modern component library for Svelte.",
 	"author": "Zoburo <me@zoburo.com>",
 	"license": "MIT",
