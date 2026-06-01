@@ -1,0 +1,12 @@
+name: Deploy
+
+on:
+  release:
+    types:
+      - published
+  workflow_dispatch:
+
+jobs:
+  publish:
+    uses: zoburo/ci/.github/workflows/publish-npm-package.yaml@main
+    secrets: inherit
