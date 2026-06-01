@@ -15,11 +15,11 @@
 			localStorage.theme === 'dark' ||
 			(!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)
 		) {
-			document.documentElement.classList.add('data-theme', 'dark');
+			document.documentElement.classList.add('dark');
 			// @ts-ignore
 			window.theme = 'dark';
 		} else {
-			document.documentElement.classList.add('data-theme', 'light');
+			document.documentElement.classList.add('light');
 			// @ts-ignore
 			window.theme = 'light';
 		}

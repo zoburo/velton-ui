@@ -23,7 +23,7 @@ Update `src/routes/layout.css` file:
 
 ```css
 @import 'tailwindcss';
-@import 'velton-ui/styles';
+@import 'velton-ui/styles.css';
 ```
 
 Update `src/routes/+layout.svelte` file:

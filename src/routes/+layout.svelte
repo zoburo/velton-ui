@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { Provider } from '$lib';
-	import '$lib/styles.css';
+	import './layout.css';
 
 	const { children } = $props();
 </script>
